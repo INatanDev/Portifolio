@@ -4,33 +4,57 @@
     src: url("../fontes/FontsFree-Net-Pattanakarn-Regular.ttf");
   }
 
-#principal{
+#principal {
     background-color: black;
 }
 
 /* formatacao do menu*/
-#navegacao{
+#navegacao {
     border: 5px transparent solid;  
     height: 100%;
     background: transparent;
 }
 
-.home{
+.home {
     color: #79ffff;
-    font-family: Pattanakarn, Pattanakarn, Georgia, serif; 
+    font-family: Pattanakarn, Pattanakarn, Georgia, serif;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.descricao{
+.descricao {
     color: #79ffff;
     font-family: Pattanakarn, Georgia, serif; 
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.projetos{
+.projetos {
     color: #79ffff;
-    font-family: Pattanakarn, Georgia, serif; 
+    font-family: Pattanakarn, Georgia, serif;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.contato{
+.contato {
     color: #79ffff;
-    font-family: Pattanakarn, Georgia, serif; 
+    font-family: Pattanakarn, Georgia, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* intro */
+#intro {
+    display: grid;
+}
+
+#intro h1 {
+    color: #79ffff;
+    font-family: Pattanakarn, Georgia, serif;
+    text-transform: uppercase;
+}
+
+#intro h2 {
+    color: #79ffff;
+    font-family: Pattanakarn, Georgia, serif;
 }
