@@ -1,7 +1,31 @@
 
+#principal{
+    background-color: black;
+}
 
-.navegacao{
-    border: 5px red solid;
-    background: #79ffff;
-    font-family: Georgia, serif;
+/* formatacao do menu*/
+#navegacao{
+    border: 5px red solid;  
+    height: 100%;
+    background: transparent;
+}
+
+.home{
+    color: #79ffff;
+    font-family: Georgia, serif; 
+}
+
+.descricao{
+    color: #79ffff;
+    font-family: Georgia, serif; 
+}
+
+.projetos{
+    color: #79ffff;
+    font-family: Georgia, serif; 
+}
+
+.contato{
+    color: #79ffff;
+    font-family: Georgia, serif; 
 }
