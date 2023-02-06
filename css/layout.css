@@ -1,3 +1,8 @@
+/* fontes*/
+@font-face {
+    font-family: "Pattanakarn";
+    src: url("../fontes/FontsFree-Net-Pattanakarn-Regular.ttf");
+  }
 
 #principal{
     background-color: black;
@@ -12,20 +17,20 @@
 
 .home{
     color: #79ffff;
-    font-family: Georgia, serif; 
+    font-family: Pattanakarn, Pattanakarn, Georgia, serif; 
 }
 
 .descricao{
     color: #79ffff;
-    font-family: Georgia, serif; 
+    font-family: Pattanakarn, Georgia, serif; 
 }
 
 .projetos{
     color: #79ffff;
-    font-family: Georgia, serif; 
+    font-family: Pattanakarn, Georgia, serif; 
 }
 
 .contato{
     color: #79ffff;
-    font-family: Georgia, serif; 
+    font-family: Pattanakarn, Georgia, serif; 
 }
