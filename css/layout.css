@@ -214,8 +214,10 @@
     clear: right;
 }
 .imagens-flutuantes{
-    background-color: blue;
-    float:right;
+    background-color: #0000ff00;
+    float: right;
+    position: fixed;
     margin-top: 200px;
     padding: 0;
+    right: -17px;
 }
