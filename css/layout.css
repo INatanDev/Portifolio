@@ -19,13 +19,13 @@
   color: #6ae1e2;
   font-size: 2em;
   font-family: "Pattanakarn";
-  padding: 1%;
+  padding: 2%;
   display: none;
 }
 
 #navegacao {
   border: 5px transparent solid;
-  height: 100%;
+  height: auto;
   width: 100%;
   display: flex;
   background: transparent;
@@ -35,6 +35,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  position: absolute;
 }
 
 #navegacao ul {
@@ -49,7 +50,7 @@
 }
 
 #navegacao > div {
-  width: 70%;
+  width: 60%;
 }
 
 #navegacao > div > ul > a {
@@ -212,10 +213,13 @@
 }
 
 /* Responsivo */
-@media screen and (min-width: 630px) and (max-width: 900px) {
+@media screen and (min-width: 630px) and (max-width: 967px) {
   /* Menu */
   #navegacao a {
-    font-size: 8px;
+    font-size: 10px;
+  }
+  #navegacao > div {
+    width: 80%;
   }
 }
 
@@ -233,7 +237,7 @@
   #navegacao {
     position: absolute;
     display: none;
-    margin-top: 46px;
+    margin-top: 64px;
     height: auto;
   }
   #navegacao a {
@@ -265,5 +269,19 @@
 
   #intro h2 {
     font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 630px) {
+  #intro h1 {
+    line-height: 3.2;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  #intro h1 {
+    line-height: 4.3;
+    font-size: 2em;
   }
 }
