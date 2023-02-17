@@ -177,7 +177,7 @@
 /* Intro */
 #intro {
   display: grid;
-  height: 87vh;
+  height: 100vh;
   width: auto;
   align-content: center;
   justify-items: center;
