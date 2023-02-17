@@ -208,7 +208,7 @@
   position: fixed;
   margin-top: 200px;
   padding: 0;
-  right: -17px;
+  right: -155px;
 }
 
 .imagens-flutuantes2{
@@ -221,12 +221,14 @@
 
 .imagens-flutuantes1 img{
   max-width: 640px;
+  width: 390px;
   transform: translate(0px);
   animation: float1 5s ease-in-out infinite;
 }
 
-.imagens-flutuantes2{
+.imagens-flutuantes2 img{
   max-width: 640px;
+  width: 164px;
   transform: translate(0px);
   animation: float2 5s ease-in-out infinite;
 }
