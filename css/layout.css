@@ -205,7 +205,6 @@
 /* Imagens Flutantes */
 .imagens-flutuantes1 {
   background-color: #0000ff00;
-  float: right;
   position: fixed;
   margin-top: 200px;
   padding: 0;
@@ -214,11 +213,10 @@
 
 .imagens-flutuantes2{
   background-color: #0000ff00;
-  float: left;
   position: fixed;
-  margin-top: 150px;
+  margin-top: 40px;
   padding: 0;
-  right: -17px;
+  left: -17px;
 }
 
 .imagens-flutuantes1 img{
