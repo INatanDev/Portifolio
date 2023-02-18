@@ -331,11 +331,12 @@
 
 @media screen and (max-width: 630px) {
   /* Imagens Flutuantes */
-  .imagens-flutuantes1 {
-    opacity: 0.1;
-  }
-
-  .imagens-flutuantes2{
+  .imagens-flutuantes1,
+  .imagens-flutuantes2,
+  .imagens-flutuantes3,
+  .imagens-flutuantes4,
+  .imagens-flutuantes5,
+  .imagens-flutuantes6 {
     opacity: 0.1;
   }
   /* Menu */
