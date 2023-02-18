@@ -21,9 +21,11 @@
   font-family: "Pattanakarn";
   padding: 2%;
   display: none;
+  z-index: 9999999;
 }
 
 #navegacao {
+  z-index: 9999999;
   border: 5px transparent solid;
   height: auto;
   width: 100%;
