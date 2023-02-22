@@ -1,13 +1,15 @@
 function showHideMenu() {
-  const navIcon = document.getElementById("nav-icon2")
+  const header = document.getElementsByTagName("header")[0]
   const navegacao = document.getElementById("navegacao")
+  const menu = document.getElementById("menu")
   
   if (navegacao.style.display == "block") {
     navegacao.style.display = "none";
-    navIcon.classList.remove("open")
+    header.classList.remove("open")
   } else {
     navegacao.style.display = "block";
-    navIcon.classList.add("open")
+    header.classList.add("open")
+
   }
 
 }

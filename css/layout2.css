@@ -14,6 +14,86 @@
   padding: 0;
 }
 
+/* Menu */
+#menu {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: "Pattanakarn";
+  padding-left: 3%;
+  display: none;
+  z-index: 9999999;
+  line-height: 3;
+
+}
+
+#navegacao {
+  z-index: 9999999;
+  border: 5px transparent solid;
+  height: auto;
+  width: 100%;
+  display: flex;
+  background: transparent;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px black;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+#navegacao ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+#navegacao > div {
+  width: 60%;
+}
+
+#navegacao > div > ul > a {
+  width: 25%;
+  text-align: center;
+}
+
+.home,
+.descricao,
+.projetos,
+.contato {
+  color: #79ffff;
+  font-family: Pattanakarn, Pattanakarn, Georgia, serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navegacao a {
+  position: relative;
+  display: inline-block;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 0;
+  letter-spacing: 4px;
+}
+
+header.open {
+  position: relative;
+  background: url(../videos/videoDosite.mp4) no-repeat center;
+  height: 100vh;
+  width: -webkit-fill-available;
+  display: block;
+}
+
 /* Intro */
 #intro {
   position: fixed;
@@ -76,4 +156,86 @@
   margin: 0;
   font-size: 2.5em;
   font-weight: normal;
+}
+
+/* Responsivo */
+@media screen and (min-width: 630px) and (max-width: 967px) {
+  
+  /* Menu */
+  #navegacao a {
+    font-size: 10px;
+  }
+  #navegacao > div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  /* Menu */
+  #menu {
+    /* animation: failedEffect 5s linear infinite; */
+    display: block;
+    /* animation-delay: 1s; */
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    position: fixed;
+  }
+
+  #navegacao {
+    position: absolute;
+    display: none;
+    margin-top: 64px;
+    height: auto;
+    border-radius: 0px;
+    /* background: black; */
+    height: -webkit-fill-available;
+  }
+  #navegacao a {
+    padding: 10px 0px;
+  }
+
+  #navegacao ul {
+    flex-direction: column;
+  }
+
+  #navegacao > div {
+    width: 100%;
+  }
+
+  #navegacao > div > ul > a {
+    animation: failedEffect 5s linear infinite;
+    width: 100%;
+    animation-delay: 1s;
+    text-align: center;
+    height: 17vh;
+    line-height: 7;
+    border: 1px solid white;
+  }
+  /* intro */
+  #intro {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #intro h1 {
+    line-height: 1;
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 630px) {
+  #intro h1 {
+    line-height: 1;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  #intro h1 {
+    line-height: 1;
+    font-size: 1.3em;
+  }
 }
