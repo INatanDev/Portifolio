@@ -1,0 +1,79 @@
+/* fontes */
+@font-face {
+  font-family: "Pattanakarn";
+  src: url("../fontes/FontsFree-Net-Pattanakarn-Regular.ttf");
+}
+
+.clear {
+  clear: right;
+}
+
+#principal {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Intro */
+#intro {
+  position: fixed;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  animation: introZoom 1s ease-in;
+  overflow: hidden;
+}
+
+@keyframes introZoom {
+  0% {
+    transform: scale(1.5)
+  }
+  100% {
+   transform: scale(1);
+  }
+  
+}
+
+#intro h1 {
+  color: white;
+  font-family: Pattanakarn, Georgia, serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  text-shadow: 0 0 0.125em #6fe4e5, 0 0 0.25em #00bcd4;
+  margin-top: -62px;
+  margin-bottom: -62px;
+  -webkit-text-stroke: 0.9px #6fe4e5;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+  animation: failedEffect 5s linear infinite;
+  animation-delay: 1s;
+  line-height: 0.93;
+}
+
+@keyframes failedEffect {
+  0%,
+  2%,
+  4% {
+    opacity: 0;
+  }
+
+  1%,
+  3%,
+  5%,
+  100% { 
+      opacity: 1;
+  }
+}
+
+#intro h2 {
+  color: #79ffff;
+  font-family: Pattanakarn, Georgia, serif;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: normal;
+}

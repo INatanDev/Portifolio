@@ -1,9 +1,13 @@
 function showHideMenu() {
-  if (document.getElementById("menu").innerHTML == "X") {
-    document.getElementById("menu").innerHTML = "&#9776";
-    document.getElementById("navegacao").style.display = "none";
+  const navIcon = document.getElementById("nav-icon2")
+  const navegacao = document.getElementById("navegacao")
+  
+  if (navegacao.style.display == "block") {
+    navegacao.style.display = "none";
+    navIcon.classList.remove("open")
   } else {
-    document.getElementById("menu").innerHTML = "X";
-    document.getElementById("navegacao").style.display = "block";
+    navegacao.style.display = "block";
+    navIcon.classList.add("open")
   }
+
 }
