@@ -122,10 +122,12 @@ header.open {
   font-family: Pattanakarn, Georgia, serif;
   text-transform: uppercase;
   font-size: 5em;
-  text-shadow: 0 0 0.125em #6fe4e5, 0 0 0.25em #00bcd4;
+  text-shadow: 0 0 0.125em #5ef5e6, 0 0 0.25em #5ef5e6;
+  -webkit-text-stroke: 0.9px #5ef5e6;
+  /* text-shadow: 0 0 0.125em #6fe4e5, 0 0 0.25em #00bcd4; */
   margin-top: -62px;
   margin-bottom: -62px;
-  -webkit-text-stroke: 0.9px #6fe4e5;
+  /* -webkit-text-stroke: 0.9px #6fe4e5; */
   letter-spacing: 1px;
   text-align: center;
   cursor: pointer;
