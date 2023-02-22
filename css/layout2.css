@@ -16,14 +16,13 @@
 
 /* Menu */
 #menu {
-  color: #ffffff;
+  color: #5ef5e6;
   font-size: 2em;
   font-family: "Pattanakarn";
   padding-left: 3%;
   display: none;
   z-index: 9999999;
   line-height: 3;
-
 }
 
 #navegacao {
@@ -76,7 +75,7 @@
   position: relative;
   display: inline-block;
   padding: 0px 20px;
-  color: #ffffff;
+  color: #5ef5e6;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -211,7 +210,7 @@ header.open {
     text-align: center;
     height: 17vh;
     line-height: 7;
-    border: 1px solid white;
+    border: 1px solid #5ef5e6;
   }
   /* intro */
   #intro {
