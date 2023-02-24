@@ -194,6 +194,7 @@ header.open {
     font-size: 10px;
     box-shadow: 0 0 0.125em #5ef5e6, 0 0 50.25em #5ef5e6;
     -webkit-text-stroke: 0.9px #5ef5e6;
+    border: 0;
   }
   #navegacao > div {
     width: 80%;
