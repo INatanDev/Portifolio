@@ -64,6 +64,7 @@ footer.open {
   align-content: center;
   padding: 0;
   flex-wrap: nowrap;
+  /* box-shadow: 0 0 7.1em #092a2e; */
   flex-direction: row;
 }
 
@@ -440,6 +441,10 @@ header.open {
     0 0 100px #5ef5e6;
   text-shadow: none;
   -webkit-text-stroke: 0.9px #030a0c;
+}
+#navegacao ul:hover {
+box-shadow: 0 0 7.1em #092a2e, 0 0 125.1em #ffffff;
+
 }
 
 #navegacao a span {
